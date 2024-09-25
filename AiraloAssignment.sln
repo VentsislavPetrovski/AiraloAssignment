@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiraloAssignment", "AialoAssignment\AiraloAssignment.csproj", "{D61792AA-FBD6-4365-B751-17E960DF50B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiraloAssignment", "AiraloAssignment\AiraloAssignment.csproj", "{D61792AA-FBD6-4365-B751-17E960DF50B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
