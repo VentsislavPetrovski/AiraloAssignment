@@ -17,6 +17,7 @@ namespace AiraloAssignment.Tests
                     Width = 1920,
                     Height = 1080
                 },
+                Locale = "en-US"
             };
         }
 
