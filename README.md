@@ -33,7 +33,7 @@ The tests are now ready to be run. This can be achieved in multiple ways via cmd
 For the API test a simple setup was created using DI Container, Authorization handler and appsetings file. The environment configuration is saved in the appsettings.json file and is extracted and saved as singleton in the Container. The container is started in the OneTimeSetupMethod in the SetupFixture class. Each endpoint is described as method and there are 3 classes for each API Controller based on the Airalo API Documentation. Authorization is handled automatically, and the GET Token request is only saved once and reused for subsequent api calls. This is handled in the AuthorizationHelper class. Separate DTOs are created for each endpoint's request and response.
 
 ### NOTE!!!
-The task stated ![image](https://github.com/user-attachments/assets/cc848c65-ba3a-4541-979a-d153e12ca810) however when I used the required endpoint no sim card data is returned so I could not verify the 6 cards are present.
+The task stated ![image](https://github.com/user-attachments/assets/cc848c65-ba3a-4541-979a-d153e12ca810) however when I used the required endpoint no sim card data is returned so I could not verify 6 cards are present with this packageID.
 - Airalo documentation mock response: ![image](https://github.com/user-attachments/assets/851461a6-cc1f-4905-83fb-47e23e80a7af)
 - Real response ![image](https://github.com/user-attachments/assets/ebf46c34-1b4c-4759-a3a7-159f6f48f049)
 As we can see the simable object is missing.
